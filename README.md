@@ -6,7 +6,21 @@ Induction to puppet
 
 
 ## Puppet class
+```
+class class_name (
+  Parameter_Type $parameter1,
+  Parameter_Type $parameter2 = default_value,
+) {
+  # Class resources and configurations go here
+  resource_type { 'resource_name':
+    property1 => value1,
+    property2 => value2,
+    ...
+  }
 
+  # Other class definitions, resource declarations, and logic
+}
+```
 
 ### Puppet file properties
 ```
