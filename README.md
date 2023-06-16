@@ -44,7 +44,7 @@ class example_class {
 - The **mode** parameter sets the file permissions (in this case, 0644).
 
 - The **content** parameter specifies the content of the file. You can replace 'This is the content of the file.' with the desired content. Alternatively, you can use the source parameter to copy the content from a file on the Puppet master.
-- 
+ 
 - **source**: Specifies the source from which to copy the content of the file. It can be a local file path or a file URL. Puppet will retrieve the content from the source and populate the file.
 
 - **content** Sets the content of the file as a string. This property allows you to directly define the content within the Puppet manifest.
