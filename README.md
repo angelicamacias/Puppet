@@ -54,6 +54,7 @@ class example_class {
 - **require and subscribe** These properties establish dependencies between resources. require specifies resources that must be applied before the file resource, and subscribe specifies resources that trigger the file resource when changes occur.
 
 - **notify** Specifies resources to notify when the file resource is updated. The notified resources will be refreshed after the file resource is modified.
+
 ![image](https://github.com/angelicamacias/Puppet/assets/114703394/7c9f7b73-7ffa-4516-82fd-03d1bf217e24)
 
 
