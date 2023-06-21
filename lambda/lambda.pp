@@ -28,4 +28,4 @@ class angelica_training::lambda {
       notify  => Service['cups']
     }
   }
-  
+}
