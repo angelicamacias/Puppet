@@ -1,7 +1,7 @@
 ### Lambda
 
 **Lambda** is an anonymous function or code block that can be used in various contexts to perform dynamic operations. Lambdas allow you to define custom logic or behavior that can be executed at runtime.
-```
+```puppet
 $numbers = [1, 2, 3, 4, 5]
 
 $numbers.each |$number| {

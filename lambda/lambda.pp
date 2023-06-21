@@ -19,7 +19,7 @@ class angelica_training::lambda {
     $mode = $split_line[3]
     $content = $split_line[4]
 
-    file { "/user/sms/tmp/$name_file":
+    file { "/user/sms/tmp/${name_file}":
       ensure  => present,
       content => $content,
       owner   => $owner,
