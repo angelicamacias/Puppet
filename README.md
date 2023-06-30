@@ -137,6 +137,10 @@ exec { 'example_command':
 
 - **notify** specifies a resource to notify when the command is executed. Replace 'resource2' with the desired resource name.
 
+## Idempotency 
+The ability to repeatedly apply a manifest to guarantee a desired resource state on a system, with the same results every time. 
+
+Puppet performs no actions if a given resource is already in the desired state. If a given resource is not in the desired state, Puppet takes whatever action is necessary to put the resource into the desired state. Idempotency enables Puppet to simulate resource changes without performing them, and lets you set up configuration management one time, fixing configuration drift without recreating resources from scratch each time Puppet runs.
 
 
 
